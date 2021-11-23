@@ -10,8 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Rate_My_App" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ratemyapp" />
+            <option value="$PROJECT_DIR$/sampleapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

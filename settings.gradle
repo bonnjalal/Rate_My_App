@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Rate My App Sample"
-include ':app'
-include ':Rate_My_App'
+rootProject.name = "Rate My App"
+include ':sampleapp'
+include ':ratemyapp'

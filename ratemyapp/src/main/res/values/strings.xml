@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppRatingLibrary</string>
+
+    <string name="no_email_app">There is no email app on this device. please install one to continue</string>
+    <string name="send_message_via">Send message via</string>
+    <string name="select_stars">Please select how much stars do you give this app</string>
+
+    <string name="rate_this_app">Rate this app</string>
+    <string name="how_much_stars">How much do you love our app?</string>
+
+</resources>
