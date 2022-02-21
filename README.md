@@ -30,7 +30,7 @@ To use the library, first include it your project using Gradle
 	        implementation 'com.github.bonnjalal:Rate_My_App:v1.2'
 	}
 
-
+[![](https://jitpack.io/v/bonnjalal/Rate_My_App.svg)](https://jitpack.io/#bonnjalal/Rate_My_App)
 
 ## How to use
 To use this library just add this snippet in the `onCreate` of your activity.
