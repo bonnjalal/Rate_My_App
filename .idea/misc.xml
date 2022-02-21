@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="ratemyapp/src/main/res/drawable/dialog_background.xml" value="0.215625" />
+        <entry key="ratemyapp/src/main/res/drawable/not_now_button_background.xml" value="0.215625" />
+        <entry key="ratemyapp/src/main/res/layout/layout_custom_dialog.xml" value="0.33" />
+        <entry key="sampleapp/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

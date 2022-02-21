@@ -2,7 +2,6 @@ package com.bonnjalal.rate_my_app
 
 import android.widget.TextView
 import android.widget.RatingBar
-import androidx.constraintlayout.widget.ConstraintLayout
 import android.view.LayoutInflater
 import android.widget.RatingBar.OnRatingBarChangeListener
 import android.widget.Toast
@@ -10,13 +9,14 @@ import android.graphics.drawable.LayerDrawable
 import android.graphics.PorterDuffColorFilter
 import android.graphics.PorterDuff
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.content.*
 import android.graphics.Color
 import android.net.Uri
 import android.util.Log
 import android.view.View
 import android.widget.Button
-import androidx.appcompat.app.AlertDialog
+import androidx.constraintlayout.widget.ConstraintLayout
 
 /**
  * Created by angtrim on 12/09/15.
@@ -128,6 +128,7 @@ class RateMyAppDialog(private val context: Context, supportEmail: String) {
     }
 
     private fun setUpDialogUI() {
+        ratingBar.setBackgroundColor(Color.WHITE)
         val stars = ratingBar.progressDrawable as LayerDrawable
         val starCF: PorterDuffColorFilter
         starCF = if (starColor != 0) {
@@ -138,8 +139,13 @@ class RateMyAppDialog(private val context: Context, supportEmail: String) {
                 PorterDuff.Mode.SRC_ATOP
             )
         }
-        stars.getDrawable(1).colorFilter = starCF
+
+        //ratingBar.backgroundTintMode = PorterDuff.Mode.DARKEN
+                //stars.getDrawable(1).colorFilter = starCF
         stars.getDrawable(2).colorFilter = starCF
+        val starCF0 = PorterDuffColorFilter(Color.parseColor("#EFEDED"), PorterDuff.Mode.SRC_ATOP)
+        stars.getDrawable(0).colorFilter = starCF0
+
         if (okBtnColor != 0) {
             val btnFilter = PorterDuffColorFilter(okBtnColor, PorterDuff.Mode.SRC_ATOP)
             //LayerDrawable okBtnLayer = (LayerDrawable) okBtn.getBackground();
