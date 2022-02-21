@@ -27,7 +27,7 @@ To use the library, first include it your project using Gradle
     }
 
 	dependencies {
-	        implementation 'com.github.bonnjalal:Rate_My_App:v1.1'
+	        implementation 'com.github.bonnjalal:Rate_My_App:v1.2'
 	}
 
 
